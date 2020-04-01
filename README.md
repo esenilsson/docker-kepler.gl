@@ -12,7 +12,7 @@ docker pull crazycapivara/kepler.gl
 ## Run
 
 ```bash
-docker run --name kepler.gl -p 8080:80 -d crazycapivara/kepler.gl
+docker run --name kepler.gl -p 8080:80 -d emni/kepler.gl
 
 # Optional: pass your mapbox access token to the container
 docker run  --name kepler.gl -p 8080:80 \
@@ -25,6 +25,6 @@ at [http://localhost:8080](http://localhost:8080).
 ## Build
 
 ```bash
-docker build -t crazycapivara/kepler.gl https://github.com/crazycapivara/docker-kepler.gl.git
+docker build -t emni/kepler.gl https://github.com/esenilsson/docker-kepler.gl.git
 ```
 
